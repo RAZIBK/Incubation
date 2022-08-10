@@ -361,7 +361,7 @@ function Incubation() {
                     label="Physical Incubation"
                     name="select"
                     type={type}
-                    value={"Physical"}
+                    value={" "}
                     onClick={(e) => setType(e.target.value)}
                     required
                   />
